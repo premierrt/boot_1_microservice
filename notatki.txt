@@ -1,1 +1,12 @@
 https://medium.com/tech-vision/micro-service-tutorial-for-beginners-part-1-spring-boot-java-de783ce0358d
+
+
+testy:
+https://spring.io/guides/gs/testing-web/
+
+to do:
+
+-- dodac mockito
+i junit
+i REST 
+i sawgger 
