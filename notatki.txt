@@ -10,3 +10,4 @@ to do:
 i junit
 i REST 
 i sawgger 
+java 8 

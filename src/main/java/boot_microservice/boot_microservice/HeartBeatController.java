@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-public class ServiceController {
+public class HeartBeatController {
     @RequestMapping(value = "/heartBeat", method = RequestMethod.GET)
     public ResponseEntity<String> heartBeat(){
         return new ResponseEntity<String>("ACK", HttpStatus.OK);
