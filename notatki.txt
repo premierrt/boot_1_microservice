@@ -6,8 +6,15 @@ https://spring.io/guides/gs/testing-web/
 
 to do:
 
--- dodac mockito
-i junit
+-- dodac 
+- mockito
+[v] junit
 i REST 
 i sawgger 
 java 8 
+
+
+
+
+git to do:
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing
