@@ -1,7 +1,6 @@
 package boot_microservice.boot_microservice;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

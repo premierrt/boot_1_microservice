@@ -2,7 +2,13 @@ https://medium.com/tech-vision/micro-service-tutorial-for-beginners-part-1-sprin
 
 
 testy:
+1.
 https://spring.io/guides/gs/testing-web/
+
+2. mockito
+https://springframework.guru/mockito-mock-vs-spy-in-spring-boot-tests/
+https://memorynotfound.com/unit-test-spring-mvc-rest-service-junit-mockito/
+http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
 
 to do:
 
