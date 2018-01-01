@@ -13,13 +13,17 @@ http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
 to do:
 
 -- dodac 
-- mockito
+- mockito https://kobietydokodu.pl/niezbednik-juniora-mockito/
 [v] junit
-i REST 
+i REST https://kobietydokodu.pl/22-web-services/
 i sawgger 
-java 8 
 
 
+--java 8
+- optional http://www.baeldung.com/java-optional 
+
+--wzorce:
+---strategy
 
 
 git to do:
