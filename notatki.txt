@@ -17,6 +17,11 @@ to do:
 [v] junit
 i REST https://kobietydokodu.pl/22-web-services/
 i sawgger 
+<<<<<<< HEAD
+=======
+i zwracanie w REST jsona
+i strone html ktora wywola rest api i jesli zwroci ok, to zrobi forward na jakis url (tak jak ecom)
+>>>>>>> refs/remotes/origin/master
 
 
 --java 8
@@ -28,3 +33,8 @@ i sawgger
 
 git to do:
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+-stashed commits???
+
+--informacje:
+http://zetcode.com/springboot/responseentity/ 
+-body i naglowek zwraca
