@@ -13,14 +13,25 @@ http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
 to do:
 
 -- dodac 
-- mockito
+- mockito https://kobietydokodu.pl/niezbednik-juniora-mockito/
 [v] junit
-i REST 
+i REST https://kobietydokodu.pl/22-web-services/
 i sawgger 
-java 8 
+i zwracanie w REST jsona
+i strone html ktora wywola rest api i jesli zwroci ok, to zrobi forward na jakis url (tak jak ecom)
 
 
+--java 8
+- optional http://www.baeldung.com/java-optional 
+
+--wzorce:
+---strategy
 
 
 git to do:
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+-stashed commits???
+
+--informacje:
+http://zetcode.com/springboot/responseentity/ 
+-body i naglowek zwraca
