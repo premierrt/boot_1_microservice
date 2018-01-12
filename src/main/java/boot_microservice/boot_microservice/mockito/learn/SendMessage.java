@@ -38,6 +38,11 @@ public class SendMessage {
 	public void setTimeStampMillis(long timeStampMillis) {
 		this.timeStampMillis = timeStampMillis;
 	}
+
+	@Override
+	public String toString() {
+		return "SendMessage [id=" + id + ", content=" + content + ", timeStampMillis=" + timeStampMillis + "]";
+	}
 	
 	
 

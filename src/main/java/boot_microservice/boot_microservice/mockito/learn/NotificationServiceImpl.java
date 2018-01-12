@@ -29,12 +29,18 @@ public class NotificationServiceImpl implements NotificationService {
 	@Autowired
 	private SmsService sms; 
 	
-	public void sendNotification(Optional<String> mail, Optional<String> phoneNumber, String notifcationContent) {
-
+	public String sendNotification(Optional<String> mail, Optional<String> phoneNumber, String notifcationContent) {
+		
+		
 		mail.ifPresent(value -> email.sendEmail(value, notifcationContent));
 		phoneNumber.ifPresent(value-> sms.sendSms(value, notifcationContent));
+		return notifcationContent;
 	}
 	
-	
+	public SendMessage sendNotification(String mail, String notifcationContent) {
+		SendMessage sm=	email.sendEmailAndRetrunMessage(mail, notifcationContent);
+		System.out.println(sm.toString());
+		return sm;
+	}
 
 }

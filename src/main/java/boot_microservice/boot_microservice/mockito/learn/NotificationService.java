@@ -8,5 +8,6 @@ import java.util.Optional;
  *
  */
 public interface NotificationService {
-	public void sendNotification(Optional<String> mail, Optional<String> phoneNumber, String notifcationContent);
+	public String sendNotification(Optional<String> mail, Optional<String> phoneNumber, String notifcationContent);
+	public SendMessage sendNotification(String mail, String notifcationContent);
 }
