@@ -13,20 +13,23 @@ http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
 to do:
 
 -- dodac 
-- mockito https://kobietydokodu.pl/niezbednik-juniora-mockito/
+[v] mockito https://kobietydokodu.pl/niezbednik-juniora-mockito/
 [v] junit
 i REST https://kobietydokodu.pl/22-web-services/
+i dokonczyc notificationController powinien dostawac dane formularza i zwracac jsona (przyklad z cart)
 i sawgger 
-i zwracanie w REST jsona
+[v] zwracanie w REST jsona
 i strone html ktora wywola rest api i jesli zwroci ok, to zrobi forward na jakis url (tak jak ecom)
+i spring boot - mvn package and run fat jar
+i git revert ostatni merge
 
 
 --java 8
 - optional http://www.baeldung.com/java-optional 
 
+
 --wzorce:
 ---strategy
-
 
 git to do:
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
