@@ -10,8 +10,9 @@ https://springframework.guru/mockito-mock-vs-spy-in-spring-boot-tests/
 https://memorynotfound.com/unit-test-spring-mvc-rest-service-junit-mockito/
 http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
 
-to do:
 
+
+to do:
 -- dodac: 
 i eureka 
 i docker
@@ -26,26 +27,26 @@ i docker
 
 
 i strone html ktora wywola rest api i jesli zwroci ok, to zrobi forward na jakis url (tak jak ecom)
-i git revert ostatni merge
 i zrobic klienta js z bootstrap, ktory bedzie przez formularz wywolywal jsona
 i dodać spring integration ew. eip patterns
 i i REST https://kobietydokodu.pl/22-web-services/
 i testy rest api https://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
 i jpa - https://kobietydokodu.pl/13-2-baza-danych-z-jpa-cz-2/
 i kolejny kurs https://kobietydokodu.pl/kategoria/kurs-javy/projekt-bilet/
-i sawgger 
 
 
+to do : CI/CD
+i sawgger
+i jenkins pipeline - build complie test
+i git revert ostatni merge
+i https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
+
+to do:
 --java 8
 - optional http://www.baeldung.com/java-optional 
 
 
---wzorce:
----strategy
-
-git to do:
-https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
 
 --informacje:
