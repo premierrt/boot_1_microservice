@@ -13,11 +13,9 @@ import org.springframework.util.Assert;
 import boot_microservice.boot_microservice.mockito.learn.EmailServiceImpl;
 import boot_microservice.boot_microservice.mockito.learn.SendMessage;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+
 public class EmailServiceTest {
 	
-	@Autowired
 	private EmailServiceImpl emailService;
 
 	String email;
@@ -26,6 +24,7 @@ public class EmailServiceTest {
 	
 	@Before
 	public void setUp(){
+		emailService = new EmailServiceImpl();
 		 email="rrr@x.pl";
 		 content="dupa";
 		 messageMock= new SendMessage("1", content, 999);

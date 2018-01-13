@@ -19,7 +19,6 @@ import boot_microservice.boot_microservice.mockito.learn.SendMessage;
 import boot_microservice.boot_microservice.mockito.learn.SmsService;
 
 @RunWith(MockitoJUnitRunner.class)
-@SpringBootTest
 public class NotificationServiceTest {
 	
 	
