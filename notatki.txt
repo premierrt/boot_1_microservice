@@ -13,16 +13,21 @@ http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
 to do:
 
 -- dodac 
+i eureka i docker
 [v] mockito https://kobietydokodu.pl/niezbednik-juniora-mockito/
 [v] junit
-i REST https://kobietydokodu.pl/22-web-services/
-i dokonczyc notificationController powinien dostawac dane formularza i zwracac jsona (przyklad z cart)
-i sawgger 
+[v] dokonczyc notificationController powinien dostawac dane formularza i zwracac jsona (przyklad z cart)
 [v] zwracanie w REST jsona
-i strone html ktora wywola rest api i jesli zwroci ok, to zrobi forward na jakis url (tak jak ecom)
-i spring boot - mvn package and run fat jar
-i git revert ostatni merge
+[v] spring boot - mvn package and run fat jar --> mvn clean install (kopiuje dodatkowo do .m repo), albo mvn package --> https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html
 
+i sawgger 
+i strone html ktora wywola rest api i jesli zwroci ok, to zrobi forward na jakis url (tak jak ecom)
+i git revert ostatni merge
+i zrobic klienta js z bootstrap, ktory bedzie przez formularz wywolywal jsona
+i dodać spring integration ew. eip patterns
+i dodać drugą implementacje notificationService i wywolnia odpowiedniej stategii w kontrolerze
+i i REST https://kobietydokodu.pl/22-web-services/
+i testy rest api https://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
 
 --java 8
 - optional http://www.baeldung.com/java-optional 
