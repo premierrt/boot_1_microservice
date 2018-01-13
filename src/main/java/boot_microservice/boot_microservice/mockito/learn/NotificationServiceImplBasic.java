@@ -2,6 +2,9 @@ package boot_microservice.boot_microservice.mockito.learn;
 
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class NotificationServiceImplBasic implements NotificationService{
 
 	@Override
