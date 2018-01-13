@@ -39,6 +39,7 @@ public class NotificationServiceImplAdvanced implements NotificationService {
 	
 	public SendMessage sendNotification(String mail, String notifcationContent) {
 		SendMessage sm=	email.sendEmailAndRetrunMessage(mail, notifcationContent);
+		sm.setContent("advanced impl");
 		System.out.println(sm.toString());
 		return sm;
 	}

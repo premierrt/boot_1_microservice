@@ -16,7 +16,7 @@ public class NotificationServiceImplBasic implements NotificationService{
 	@Override
 	public SendMessage sendNotification(String mail, String notifcationContent) {
 		// TODO Auto-generated method stub
-		return new SendMessage("44", notifcationContent, 8888);
+		return new SendMessage("44", "basic impl", 8888);
 	}
 
 }
