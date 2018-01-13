@@ -14,7 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import boot_microservice.boot_microservice.mockito.learn.EmailService;
 import boot_microservice.boot_microservice.mockito.learn.NotificationService;
-import boot_microservice.boot_microservice.mockito.learn.NotificationServiceImpl;
+import boot_microservice.boot_microservice.mockito.learn.NotificationServiceImplAdvanced;
 import boot_microservice.boot_microservice.mockito.learn.SendMessage;
 import boot_microservice.boot_microservice.mockito.learn.SmsService;
 
@@ -38,7 +38,7 @@ public class NotificationServiceTest {
 	public void setUp(){
 		content= "dupa";
 		timestamp= 666;
-		notificationService = new NotificationServiceImpl(email, smsService);
+		notificationService = new NotificationServiceImplAdvanced(email, smsService);
 	}
 	
 	@Test
