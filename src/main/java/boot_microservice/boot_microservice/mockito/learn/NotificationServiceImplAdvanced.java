@@ -12,12 +12,12 @@ import org.springframework.stereotype.Service;
  *
  */
 @Service
-public class NotificationServiceImpl implements NotificationService {
+public class NotificationServiceImplAdvanced implements NotificationService {
 
 	
 	
 	
-	public NotificationServiceImpl(EmailService email, SmsService sms) {
+	public NotificationServiceImplAdvanced(EmailService email, SmsService sms) {
 		super();
 		this.email = email;
 		this.sms = sms;
@@ -39,6 +39,7 @@ public class NotificationServiceImpl implements NotificationService {
 	
 	public SendMessage sendNotification(String mail, String notifcationContent) {
 		SendMessage sm=	email.sendEmailAndRetrunMessage(mail, notifcationContent);
+		sm.setContent("advanced impl");
 		System.out.println(sm.toString());
 		return sm;
 	}

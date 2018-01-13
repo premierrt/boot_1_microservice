@@ -12,22 +12,30 @@ http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
 
 to do:
 
--- dodac 
-i eureka i docker
+-- dodac: 
+i eureka 
+i docker
 [v] mockito https://kobietydokodu.pl/niezbednik-juniora-mockito/
 [v] junit
 [v] dokonczyc notificationController powinien dostawac dane formularza i zwracac jsona (przyklad z cart)
 [v] zwracanie w REST jsona
 [v] spring boot - mvn package and run fat jar --> mvn clean install (kopiuje dodatkowo do .m repo), albo mvn package --> https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html
+[v] dodać drugą implementacje notificationService i wywolnia odpowiedniej stategii w kontrolerze 
+[v]  https://stackoverflow.com/questions/17629761/strategy-pattern-with-spring-beans
+[v]  https://stackoverflow.com/questions/32715156/inject-values-into-map-using-spring-annotation
 
-i sawgger 
+
 i strone html ktora wywola rest api i jesli zwroci ok, to zrobi forward na jakis url (tak jak ecom)
 i git revert ostatni merge
 i zrobic klienta js z bootstrap, ktory bedzie przez formularz wywolywal jsona
 i dodać spring integration ew. eip patterns
-i dodać drugą implementacje notificationService i wywolnia odpowiedniej stategii w kontrolerze
 i i REST https://kobietydokodu.pl/22-web-services/
 i testy rest api https://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
+i jpa - https://kobietydokodu.pl/13-2-baza-danych-z-jpa-cz-2/
+i kolejny kurs https://kobietydokodu.pl/kategoria/kurs-javy/projekt-bilet/
+i sawgger 
+
+
 
 --java 8
 - optional http://www.baeldung.com/java-optional 
@@ -38,8 +46,9 @@ i testy rest api https://www.petrikainulainen.net/programming/spring-framework/u
 
 git to do:
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
--stashed commits???
+
 
 --informacje:
 http://zetcode.com/springboot/responseentity/ 
 -body i naglowek zwraca
+
