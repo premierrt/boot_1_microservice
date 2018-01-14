@@ -25,6 +25,16 @@ public class Notification {
 	public void setContent(String content) {
 		this.content = content;
 	}
+	public Notification() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Notification(String email, String phoneNumber, String content) {
+		super();
+		this.email = email;
+		this.phoneNumber = phoneNumber;
+		this.content = content;
+	}
 	
 	
 

@@ -3,7 +3,12 @@ https://medium.com/tech-vision/micro-service-tutorial-for-beginners-part-1-sprin
 
 testy:
 1.
-https://spring.io/guides/gs/testing-web/
+[v] https://spring.io/guides/gs/testing-web/
+https://memorynotfound.com/unit-test-spring-mvc-rest-service-junit-mockito/
+i https://docs.spring.io/spring/docs/4.3.13.RELEASE/spring-framework-reference/htmlsingle/#testing
+i https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html
+[v] https://lstierneyltd.com/blog/development/examples/unit-testing-spring-apps-with-runwithspringjunit4classrunner-class/
+i raport z testo - jcoco
 
 2. mockito
 https://springframework.guru/mockito-mock-vs-spy-in-spring-boot-tests/
@@ -40,14 +45,18 @@ i sawgger
 i jenkins pipeline - build complie test
 i git revert ostatni merge
 i https://www.atlassian.com/git/tutorials/merging-vs-rebasing
-
+i jenkins i w https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-16-04
+i webhook z githuba https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-16-04
 
 to do:
 --java 8
 - optional http://www.baeldung.com/java-optional 
 
 
-
+to do spirng:
+i spring profiles https://www.mkyong.com/spring/spring-profiles-example/
+i ogolnie konetner, context itd teoria
+i solid https://springframework.guru/principles-of-object-oriented-design/interface-segregation-principle/
 
 --informacje:
 http://zetcode.com/springboot/responseentity/ 
